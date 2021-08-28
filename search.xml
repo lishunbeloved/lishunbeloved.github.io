@@ -4,64 +4,19 @@
   
     
     <entry>
-      <title>代码演示</title>
-      <link href="/20219/01/01/%E4%BB%A3%E7%A0%81/code/"/>
-      <url>/20219/01/01/%E4%BB%A3%E7%A0%81/code/</url>
+      <title>MarkDowm 文档格式模版</title>
+      <link href="/2021/01/02/MarkDown%E6%A8%A1%E7%89%88%E6%A0%BC%E5%BC%8F/"/>
+      <url>/2021/01/02/MarkDown%E6%A8%A1%E7%89%88%E6%A0%BC%E5%BC%8F/</url>
       
-        <content type="html"><![CDATA[<h2 id="二姐biotin"><a href="#二姐biotin" class="headerlink" title="二姐biotin"></a>二姐biotin</h2><p>lorefsdfs fsd fds fs s</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&#x27;hellow orld&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line">  </span><br></pre></td></tr></table></figure><h3 id="oen"><a href="#oen" class="headerlink" title="oen"></a>oen</h3><pre><code>fsfaffdsaffasdf</code></pre><h2 id="two"><a href="#two" class="headerlink" title="two"></a>two</h2><pre><code>fsdfsdfdasfa</code></pre>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第一批文章</title>
-      <link href="/2021/08/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2021/08/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-      
-        <content type="html"><![CDATA[<p>one is all</p>]]></content>
+        <content type="html"><![CDATA[<p>写法    解释<br>sticky  【必需】文章置顶<br>title    【必需】文章标题<br>date    【必需】文章创建日期<br>updated    【可选】文章更新日期<br>tags    【可选】文章标籤<br>categories    【可选】文章分类<br>keywords    【可选】文章关键字<br>description    【可选】文章描述<br>top_img    【可选】文章顶部图片<br>cover    【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)<br>comments    【可选】显示文章评论模块(默认 true)<br>toc    【可选】显示文章TOC(默认为设置中toc的enable配置)<br>toc_number    【可选】显示toc_number(默认为设置中toc的number配置)<br>copyright    【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)<br>copyright_author    【可选】文章版权模块的文章作者<br>copyright_author_href    【可选】文章版权模块的文章作者链接<br>copyright_url    【可选】文章版权模块的文章连结链接<br>copyright_info    【可选】文章版权模块的版权声明文字<br>mathjax    【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)<br>katex    【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)<br>aplayer    【可选】在需要的页面加载aplayer的js和css,请参考文章下面的音乐 配置<br>highlight_shrink    【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)<br>aside    【可选】显示侧边栏 (默认 true)</p>]]></content>
       
       
+      <categories>
+          
+          <category> md </category>
+          
+      </categories>
       
-        <tags>
-            
-            <tag> one </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2021/08/27/hello-world/"/>
-      <url>/2021/08/27/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>图片名字</title>
-      <link href="/2021/08/01/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%87%E5%90%8D%E5%AD%97/"/>
-      <url>/2021/08/01/%E5%9B%BE%E7%89%87/%E5%9B%BE%E7%89%87%E5%90%8D%E5%AD%97/</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKbc6gk4tz09JE5My8tY4Okf7FzBcqeg4x3g&usqp=CAU" alt="图片名称8歌子"></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> pic </tag>
-            
-        </tags>
       
     </entry>
     
