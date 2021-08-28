@@ -5,6 +5,25 @@
     
     <entry>
       <title>MarkDowm 文档格式模版</title>
+      <link href="/2021/01/02/MarkDown%E6%A8%A1%E7%89%88/"/>
+      <url>/2021/01/02/MarkDown%E6%A8%A1%E7%89%88/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> MarkDow </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MarkDowm 文档格式模版</title>
       <link href="/2021/01/02/MarkDown%E6%A8%A1%E7%89%88%E6%A0%BC%E5%BC%8F/"/>
       <url>/2021/01/02/MarkDown%E6%A8%A1%E7%89%88%E6%A0%BC%E5%BC%8F/</url>
       
@@ -13,7 +32,26 @@
       
       <categories>
           
-          <category> md </category>
+          <category> MarkDow </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Typescript 基础教程</title>
+      <link href="/2021/01/02/web/TypeScript/Typescript/"/>
+      <url>/2021/01/02/web/TypeScript/Typescript/</url>
+      
+        <content type="html"><![CDATA[<h1 id="安装-Typescript"><a href="#安装-Typescript" class="headerlink" title="安装 Typescript"></a>安装 Typescript</h1><p>​    <strong>Typescript 官网地址</strong>: <a href="https://www.typescriptlang.org/zh/">https://www.typescriptlang.org/zh/</a></p><p>​    使用 nvm 来管理 node 版本: <a href="https://github.com/nvm-sh/nvm">https://github.com/nvm-sh/nvm</a></p><h2 id="安装Typescript"><a href="#安装Typescript" class="headerlink" title="安装Typescript"></a>安装Typescript</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g typescript</span><br></pre></td></tr></table></figure><h2 id="使用-tsc-全局命令"><a href="#使用-tsc-全局命令" class="headerlink" title="使用 tsc 全局命令"></a>使用 tsc 全局命令</h2><ol><li>查看 tsc 版本</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tsc -v</span><br></pre></td></tr></table></figure><ol start="2"><li>编译 ts 文件</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tsc fileName.ts</span><br></pre></td></tr></table></figure><h1 id="原始数据类型"><a href="#原始数据类型" class="headerlink" title="原始数据类型"></a>原始数据类型</h1><p>​    <strong>原始数据类型 - primitive values:</strong></p><ul><li>Boolean</li><li>Null</li><li>Undefined</li><li>Biglnt</li><li>Sting</li><li>Symbol</li></ul><figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 布尔类型</span></span><br><span class="line"><span class="keyword">let</span> isDone: <span class="built_in">boolean</span> = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// number注意: es6 支持2进制和8进制</span></span><br><span class="line"><span class="keyword">let</span> age: <span class="built_in">number</span> = <span class="number">10</span></span><br><span class="line"><span class="keyword">let</span> binaryNumber: <span class="built_in">number</span> = <span class="number">0b1111</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 之后是字符串，注意es6新增的模版字符串也是没有问题的</span></span><br><span class="line"><span class="keyword">let</span> firstName: <span class="built_in">string</span> = <span class="string">&#x27;lishun&#x27;</span></span><br><span class="line"><span class="keyword">let</span> message: <span class="built_in">string</span> = <span class="string">`Hello, <span class="subst">$&#123;firstName&#125;</span>, age is <span class="subst">$&#123;age&#125;</span>`</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// undefined 和 null</span></span><br><span class="line"><span class="keyword">let</span> u: <span class="literal">undefined</span> = <span class="literal">undefined</span></span><br><span class="line"><span class="keyword">let</span> n: <span class="literal">null</span> = <span class="literal">null</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 注意 undefined 和 null 是所有类型的子类型。也就是说 undefined 类型的变量，可以赋值给 number 类型的变量：</span></span><br><span class="line"><span class="keyword">let</span> num: <span class="built_in">number</span> = <span class="literal">undefined</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> typescript </category>
           
       </categories>
       
