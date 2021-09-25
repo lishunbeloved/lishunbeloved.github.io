@@ -115,6 +115,25 @@
     </entry>
     
     
+    
+    <entry>
+      <title>MarkDowm 文档格式模版</title>
+      <link href="/2021/01/02/%E8%B7%A8%E5%9F%9F/"/>
+      <url>/2021/01/02/%E8%B7%A8%E5%9F%9F/</url>
+      
+        <content type="html"><![CDATA[<p></p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 代理文件, 固定名称: vue.config.js</span></span><br><span class="line"><span class="comment">// 配置文件的修改, 必须重启项目服务器才能生效</span></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line"><span class="attr">devServer</span>:&#123; </span><br><span class="line"><span class="attr">proxy</span>:&#123;</span><br><span class="line"><span class="string">&quot;/xmall&quot;</span>:&#123; <span class="comment">// 以 /douyu 开头的请求, 用此代理处理</span></span><br><span class="line"></span><br><span class="line"><span class="attr">target</span>:<span class="string">&quot;http://xmall.exrick.cn/&quot;</span>, <span class="comment">//代理到哪个域名</span></span><br><span class="line"><span class="attr">changeOrigin</span>: <span class="literal">true</span>, <span class="comment">// 代理域名与当前服务器有变更</span></span><br><span class="line"><span class="attr">secure</span>:<span class="literal">false</span>, <span class="comment">// https为true, http为false</span></span><br><span class="line"><span class="attr">logLevel</span>:<span class="string">&quot;debug&quot;</span>, <span class="comment">// 开启后台调试模式</span></span><br><span class="line"><span class="attr">pathRewrite</span>:&#123; <span class="comment">// 重写</span></span><br><span class="line"><span class="comment">// ^ 是 正则表达式的 字符串开头意思</span></span><br><span class="line"><span class="string">&quot;^/xmall&quot;</span>:<span class="string">&quot;&quot;</span>  <span class="comment">// 把开头的 /douyu 替换为空, 即删除</span></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> MarkDow </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
   
   
 </search>
